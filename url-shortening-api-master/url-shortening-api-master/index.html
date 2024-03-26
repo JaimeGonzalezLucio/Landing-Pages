@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+
+  <div class="nav">    
+    <img src="images/logo.svg" alt="" class="nav__logo-img">    
+      <div class="nav__links">
+        <a href="" class="nav__link">Features</a>
+        <a href="" class="nav__link">Pricing</a>
+        <a href="" class="nav__link">Resources</a>
+      </div>      
+
+      <div class="nav__btns">
+        <a href="" class="nav__link">Login</a>
+        <a href="" class="nav__btn">Sing Up</a>
+      </div>
+    <img src="images/menu.svg" alt="" class="nav__menu">    
+  </div>  
+
+  <div class="main">
+    <div class="main__image">
+      <img src="images/illustration-working.svg" alt="" class="main__img">
+    </div>
+  
+    <div class="main__content container">        
+      <h1 class="main__title">More than just shorter links</h1>
+      <p class="main__text">Build your brand’s recognition and get detailed insights on how your links are performing.</p>
+      <a href="" class="main__btn">Get Started</a>
+    </div>
+  </div>
+
+  <div class="content-grey">
+    <div class="search container">
+      <input id="link" class="search__input" placeholder="Shorten a link here..." required></input>
+      <button id="btn" class="search__btn">Shorten It!</button>
+    </div>
+    
+    <div class="link__container_hidden">
+      <p id="original_link" class="link_original"></p>
+        <div class="link_results">
+            <a id="short_link" href="#" class="link_short" target="_blank"></a>
+            <button class="btn_copy_link">Copy</button>
+        </div>
+    </div>
+
+    <div class="statistics container">
+      <h2 class="statistics__title">Advanced Statistics</h2>
+      <p class="statistics__text">Track how your links are performing across the web with our 
+        advanced statistics dashboard.</p>
+    </div>
+
+    <div class="cards container">
+      <div class="card">      
+        <div class="card__container-img">
+          <img src="images/icon-brand-recognition.svg" alt="" class="card__img">      
+        </div>        
+        <h2 class="card__title">Brand Recognition</h2>
+        <p class="card__text">Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+      </div>
+
+      <div class="card__connector"></div>
+
+      <div class="card">
+        <div class="card__container-img">
+          <img src="images/icon-detailed-records.svg" alt="" class="card__img">
+        </div>
+        <h2 class="card__title">Detailed Records</h2>
+        <p class="card__text">Gain insights into who is clicking your links. Knowing when and where 
+          people engage with your content helps inform better decisions.</p>
+      </div>
+
+      <div class="card__connector"></div>
+
+      <div class="card">
+        <div class="card__container-img">
+          <img src="images/icon-fully-customizable.svg" alt="" class="card__img">
+        </div>
+        <h2 class="card__title">Fully Customizable</h2>
+        <p class="card__text">Improve brand awareness and content discoverability through customizable 
+          links, supercharging audience engagement.</p>
+      </div>
+    </div>
+
+    <div class="section content">
+      <h2 class="section__title">Boost your links today</h2>
+      <a href="" class="section__btn">Get Started</a>
+    </div>
+
+  </div>  
+
+  <div class="footer">
+    <img src="images/logo-light.svg" alt="" class="footer__img">
+
+    <div class="footer__content">
+      <h3 class="footer_text">Features</h3>
+
+      <div class="footer__links">
+        <a href="" class="footer__link">Link Shortening</a>
+        <a href="" class="footer__link">Branded Links</a>
+        <a href="" class="footer__link">Analytics</a>
+      </div>    
+    </div>    
+
+    <div class="footer__content">
+      <h3 class="footer_text">Resources</h3>
+
+      <div class="footer__links">
+        <a href="" class="footer__link">Blog</a>
+        <a href="" class="footer__link">Developers</a>
+        <a href="" class="footer__link">Support</a>
+      </div>       
+    </div>
+
+    <div class="footer__content">
+      <h3 class="footer_text">Company</h3>
+
+      <div class="footer__links">
+        <a href="" class="footer__link">About</a>
+        <a href="" class="footer__link">Our Team</a>
+        <a href="" class="footer__link">Careers</a>
+        <a href="" class="footer__link">Contact</a>
+      </div>       
+    </div>
+
+    <div class="footer__social">
+      <a href="" class="social__icon">
+        <img src="images/icon-facebook.svg" alt="" class="social__img">
+      </a>
+      <a href="" class="social__icon">
+        <img src="images/icon-twitter.svg" alt="" class="social__img">
+      </a>
+      <a href="" class="social__icon">
+        <img src="images/icon-pinterest.svg" alt="" class="social__img">
+      </a>
+      <a href="" class="social__icon">
+        <img src="images/icon-twitter.svg" alt="" class="social__img">
+      </a>
+    </div>
+
+  </div>
+  
+</body>
+<script src="script.js"></script>
+</html>
